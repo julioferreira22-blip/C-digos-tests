@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlio César | Currículo Profissional</title>
+    
+    <style>
+      
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: #111827;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #2563eb;
+    position: sticky;
+    top: 0;
+}
+
+.logo h1 {
+    color: #3b82f6;
+    font-size: 32px;
+}
+
+.logo p {
+    color: #cbd5e1;
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: linear-gradient(
+        to right,
+        #0f172a,
+        #1e293b
+    );
+}
+
+.hero-texto {
+    max-width: 700px;
+}
+
+.hero h2 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background: #2563eb;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #1d4ed8;
+}
+
+/* CONTAINER */
+
+.container {
+    padding: 80px 10%;
+}
+
+.container h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #3b82f6;
+}
+
+/* CARDS */
+
+.card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border-left: 5px solid #2563eb;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #60a5fa;
+}
+
+.card span {
+    color: #94a3b8;
+}
+
+/* GRID */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* LISTAS */
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* CONTATO */
+
+.contato p {
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111827;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-top: 2px solid #2563eb;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>Júlio</h1>
+        <p>Desenvolvedor Front-End | Suporte Técnico | TI</p>
+    </div>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#formacao">Formação</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+    <div class="hero-texto">
+        <h2>Olá, eu sou Júlio César!</h2>
+
+        <p>
+            Estudante de Tecnologia da Informação apaixonado por desenvolvimento web,
+            suporte técnico e soluções digitais. Busco minha primeira oportunidade
+            profissional para contribuir com dedicação, responsabilidade e evolução constante.
+        </p>
+
+        <a href="#contato" class="botao">
+            Entrar em Contato
+        </a>
+    </div>
+</section>
+
+
+<section id="sobre" class="container">
+    <h2>Sobre Mim</h2>
+
+    <p>
+        Sou estudante do ensino médio técnico em informática,
+        focado no desenvolvimento de habilidades em programação,
+        manutenção de computadores, lógica computacional e criação
+        de interfaces web modernas.
+    </p>
+
+    <p>
+        Tenho facilidade para aprender novas tecnologias,
+        trabalhar em equipe e resolver problemas com rapidez.
+        Estou constantemente estudando HTML, CSS, JavaScript e
+        fundamentos de banco de dados.
+    </p>
+</section>
+
+<section id="objetivo" class="container">
+    <h2>Objetivo Profissional</h2>
+
+    <div class="card">
+        <p>
+            Atuar na área de Tecnologia da Informação como
+            Desenvolvedor Front-End, Assistente de TI ou
+            Suporte Técnico Júnior, contribuindo para o crescimento
+            da empresa enquanto desenvolvo minhas competências profissionais.
+        </p>
+        <p>18 anos | Disponível para estágio ou CLT</p>
+    </div>
+</section>
+
+
+<section id="formacao" class="container">
+    <h2>Formação Acadêmica</h2>
+
+    <div class="card">
+        <h3>Ensino Médio Técnico em Informática</h3>
+
+        <p>
+            Colégio Estadual Presidente Kennedy - PR
+        </p>
+
+        <span>2024 - 2026 (Cursando)</span>
+    </div>
+
+    <div class="card">
+        <h3>Curso de Desenvolvimento Web</h3>
+
+        <p>
+            HTML5, CSS3, Responsividade e Interface Moderna
+        </p>
+
+        <span>120 horas</span>
+    </div>
+
+    <div class="card">
+        <h3>Lógica de Programação</h3>
+
+        <p>
+            Algoritmos, Estruturas Condicionais e Laços
+        </p>
+
+        <span>80 horas</span>
+    </div>
+</section>
+
+
+<section id="habilidades" class="container">
+    <h2>Habilidades Técnicas</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Front-End</h3>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Responsividade</li>
+                <li>Estruturação de páginas</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Programação</h3>
+
+            <ul>
+                <li>Lógica de Programação</li>
+                <li>JavaScript Básico</li>
+                <li>Algoritmos</li>
+                <li>Organização de código</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Suporte Técnico</h3>
+
+            <ul>
+                <li>Manutenção de computadores</li>
+                <li>Instalação de sistemas</li>
+                <li>Redes básicas</li>
+                <li>Suporte ao usuário</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Soft Skills</h3>
+
+            <ul>
+                <li>Comunicação</li>
+                <li>Trabalho em equipe</li>
+                <li>Organização</li>
+                <li>Aprendizado rápido</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="projetos" class="container">
+    <h2>Projetos Pessoais</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Site Portfólio</h3>
+
+            <p>
+                Desenvolvimento de um site pessoal responsivo
+                utilizando HTML e CSS.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Sistema Escolar</h3>
+
+            <p>
+                Projeto acadêmico simulando um sistema de cadastro
+                de alunos utilizando lógica de programação.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page Comercial</h3>
+
+            <p>
+                Página moderna criada para praticar design,
+                responsividade e organização visual.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="contato" class="container">
+    <h2>Contato</h2>
+
+    <div class="card contato">
+
+        <p><strong>Email:</strong> julio.ferreira22v@escola.pr.gov.br</p>
+
+        <p><strong>Telefone:</strong> (42) 99921-8924</p>
+
+        <p><strong>LinkedIn:</strong> linkedin.com/in/juliocesar</p>
+
+        <p><strong>GitHub:</strong> github.com/juliocesar</p>
+
+        <p><strong>Cidade:</strong> Ponta Grossa - PR</p>
+
+    </div>
+</section>
+
+
+<footer>
+    <p>
+        © 2025 Júlio César - Currículo Online
+    </p>
+</footer>
+
+</body>
+</html>
